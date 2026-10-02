@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3]
 
 [ext_resource type="Script" path="res://main_menu.gd" id="1_script"]
-[ext_resource type="Texture2D" path="res://background.svg" id="2_bg"]
+[ext_resource type="Texture2D" path="res://main_menu_background.jpg" id="2_bg"]
 
 [sub_resource type="StyleBoxFlat" id="ButtonNormal"]
 bg_color = Color(0.035, 0.028, 0.04, 0.94)
@@ -95,7 +95,7 @@ theme_override_colors/font_shadow_color = Color(0.5, 0.02, 0.08, 0.9)
 theme_override_constants/shadow_offset_x = 3
 theme_override_constants/shadow_offset_y = 3
 theme_override_font_sizes/font_size = 58
-text = "DON'T LOOK BACK"
+text = "HOME ALONE"
 horizontal_alignment = 1
 
 [node name="Subtitle" type="Label" parent="Center/Content"]
@@ -118,7 +118,7 @@ theme_override_font_sizes/font_size = 24
 theme_override_styles/normal = SubResource("ButtonNormal")
 theme_override_styles/hover = SubResource("ButtonHover")
 theme_override_styles/pressed = SubResource("ButtonHover")
-text = "ENTER THE DARK"
+text = "PLAY"
 focus_neighbor_bottom = NodePath("../Options")
 focus_neighbor_top = NodePath("../Quit")
 
@@ -131,7 +131,7 @@ theme_override_font_sizes/font_size = 24
 theme_override_styles/normal = SubResource("ButtonNormal")
 theme_override_styles/hover = SubResource("ButtonHover")
 theme_override_styles/pressed = SubResource("ButtonHover")
-text = "WHISPERS & SETTINGS"
+text = "OPTIONS"
 focus_neighbor_bottom = NodePath("../Quit")
 focus_neighbor_top = NodePath("../Play")
 
@@ -144,7 +144,7 @@ theme_override_font_sizes/font_size = 24
 theme_override_styles/normal = SubResource("ButtonNormal")
 theme_override_styles/hover = SubResource("ButtonHover")
 theme_override_styles/pressed = SubResource("ButtonHover")
-text = "LEAVE WHILE YOU CAN"
+text = "QUIT"
 focus_neighbor_bottom = NodePath("../Play")
 focus_neighbor_top = NodePath("../Options")
 
